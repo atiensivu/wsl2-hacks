@@ -105,7 +105,7 @@ With this setup your shells will be able to run `systemctl` commands, have auto-
     
     ```
     > wsl --shutdown
-    > ubuntu2004.exe config --default-user root
+    > ubuntu2004.exe config --default-user rootwsl
     ```
     
 5. Re-open WSL2
