@@ -1,6 +1,7 @@
 # wsl2-hacks - Updated for Ubuntu 20.04 / 20.10
 Useful snippets / tools for using WSL2 as a development environment
 Updated based on issue #7 guidance from '@scotte' and '@JohnTasto'
+Tested with Unbuntu 20.04 and 20.10 as of 07-29-2020
 ---
 
 **Auto-start/services** (`systemd` and `snap` support)
@@ -86,6 +87,7 @@ With this setup your shells will be able to run `systemctl` commands, have auto-
     Edit the `/etc/passwd` file:
     
     `$ vipw`
+    
     `$ vipw -s`
     
     Find the line starting with `root:`, it should be the first line.
